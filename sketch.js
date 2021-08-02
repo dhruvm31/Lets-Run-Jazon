@@ -3,7 +3,7 @@ var bomb, coin, energydrink;
 var path,pathImg, power,left_boundary,right_boundary;
 
 function preload(){
-  runner_moving = loadImage("Runner-1.png","Runner-2.png");
+  runner_moving = loadAnimation("Runner-1.png","Runner-2.png");
   pathImg = loadImage("path.png");
 
 }
