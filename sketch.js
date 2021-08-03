@@ -4,7 +4,7 @@ var path,pathImg, power,left_boundary,right_boundary;
 
 function preload(){
   runner_moving = loadAnimation("Runner-1.png","Runner-2.png");
-  pathImg = loadImage("path.png");
+  pathImg = loadAnimation("path.png");
 
 }
 
