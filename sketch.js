@@ -12,8 +12,16 @@ function setup(){
   createCanvas(400,400);
   //moving background
   path = createSprite(200,200)
-  path.addImage(pathImg);
+ // path.addImage(pathImg);
+  path.addImage("path",pathImg);
+  path.y=path.width/2;
   path.velocityY=4;
+  
+   //ground = createSprite(200,180,400,20);
+  //ground.addImage("ground",groundImage);
+  //ground.x = ground.width /2;
+  //ground.velocityX = -4;
+  
   //creating runner animation
   runner = createSprite(200,300,20,170)
   runner.addAnimation("running",runner_moving);
