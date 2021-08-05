@@ -14,7 +14,7 @@ function setup(){
   path = createSprite(200,200);
  path.addImage(pathImg);
  
-  path.y=path.width/2;
+  path.y=path.height/2;
   path.velocityY=4;
   
    //ground = createSprite(200,180,400,20);
